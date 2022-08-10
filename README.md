@@ -17,3 +17,12 @@ permite por ejemplo crear archivos de texto que puedan tener titulos, codigos e 
 
 ## README.md
 El archivo README.md es un archivo de Markdown (extension.md) y ese archivo es la portada de nuestro repositorio en GitHub.
+
+## Gitignore
+Si creamos un archivo llamado `.gitignore` podemos avisarle a git que archivos queremos ignorar.
+Dentro del archivo .gitignore podemos tener algo como esto:
+
+```bash
+contrasenas.txt
+*.pdf # con esta instruccion le indico que 
+``` 
